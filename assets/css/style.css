@@ -1,25 +1,28 @@
 /* Reset Begin */
+html {
+  scroll-behavior: smooth;
+}
 img {
-	width: 100%;
+  width: 100%;
 }
 
 a {
-   outline: none;
+  outline: none;
 }
 
 
 /* Reset End */
 
 #toc li {
-	line-height: 1.8;
+  line-height: 1.8;
 }
 .title {
-	font-size: 18px;
-	text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
 
 ul.toc {
-	list-style-type: none;
+  list-style-type: none;
 }
 
 
@@ -27,33 +30,33 @@ ul.toc {
 
 /* Text and Images Begin */
 p, li {
-	line-height: 26px;
-        font-size: 16px;
-        font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+  line-height: 26px;
+  font-size: 16px;
+  font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 
 .bookTitle {
-        margin: 50px 15px;
+  margin: 50px 15px;
 }
 
 .authorText {
-	font-size: 14px;
-	font-style: italic;
-	text-align: center;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
 }
 
 .frontText {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 
 .image {
-	text-align: center;
-	margin-top: 100px;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .imageInline {
-	text-align: center;
+  text-align: center;
 }
 
 .text1, .text2, .text3 {
@@ -68,7 +71,7 @@ p, li {
 }
 
 .text1:first-letter { 
-	font-size: 150% 
+  font-size: 150% 
 }
 
 
@@ -83,60 +86,60 @@ p, li {
 }
 
 .bullets li {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .sectionHeader {
-	border-top: 3px solid #6e0d14;
+  border-top: 3px solid #6e0d14;
 }
 
 
 
 .sectionHeader p {
-	font-family: Abel, Arial, sans-serif;
-	font-size: 40px;
-        line-height: 1.2em;
-        color: #6e0d14;
+  font-family: Abel, Arial, sans-serif;
+  font-size: 40px;
+  line-height: 1.2em;
+  color: #6e0d14;
 }
 
 .sectionHeader > P:first-child {
-	margin-top: 0;
-	margin-bottom: -12px;
+  margin-top: 0;
+  margin-bottom: -12px;
 }
 
 .emph1 {
-	font-family: 'times new roman';
-	font-size: 1.12em;
-	font-style: italic;
+  font-family: 'times new roman';
+  font-size: 1.12em;
+  font-style: italic;
 }
 .emph2 {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .underline {
-	border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #000000;
 }
 
 .quote {
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 24px;
-	font-style: italic;
-	width: 350px;
-	margin: 0 auto 10px auto;
-	padding: 8px;
-	border: 1px solid #000;
-	background-color: #cccccc;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  font-style: italic;
+  width: 350px;
+  margin: 0 auto 10px auto;
+  padding: 8px;
+  border: 1px solid #000;
+  background-color: #cccccc;
 }
 
 .quote2 {
-	font-family: 'Times New Roman', Times, serif;
-	font-size: 18px;
-	font-style: italic;
-	width: 85%;
-	margin: 0 auto 10px auto;
-	padding: 8px;
-	border: 0px solid #000;
-	background-color: wheat;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-style: italic;
+  width: 85%;
+  margin: 0 auto 10px auto;
+  padding: 8px;
+  border: 0px solid #000;
+  background-color: wheat;
 }
 
 fieldset {
@@ -153,64 +156,59 @@ legend {
 }
 
 #play {
-	width: 80%;
-	margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .playName {
-	text-align: center;
-	text-transform: uppercase;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .direction {
-       font-size: 0.9em;
-       margin: -7px 0 6px 30px;
-       text-align: justify;
+  font-size: 0.9em;
+  margin: -7px 0 6px 30px;
+  text-align: justify;
 }
 
 .dialog {
-	margin: 0 0 40px -40px;
+  margin: 0 0 40px -40px;
 }
 
 /* Text and Images End */
 
 
 .popup {
-	text-decoration: none;
-	border-bottom: 1px dashed #000000;
-	color: #000000;
-	cursor: help;
+  text-decoration: none;
+  border-bottom: 1px dashed #000000;
+  color: #000000;
+  cursor: help;
 }
 
 span#tip {
-	border-bottom: 1px dashed #696969;
-	cursor: help;
+  border-bottom: 1px dashed #696969;
+  cursor: help;
 }
-
-
-
-
-
 
 /* Header Footer Begin */
 #header {
-	text-align: center;
-	font-size: 0.8em;
-	clear: both;
+  text-align: center;
+  font-size: 0.8em;
+  clear: both;
 }
 
 #header a:link, #header a:visited, #header a:hover, #header a:active {
-	color: #0000FF;
+  color: #0000FF;
 }
 
 #footer {
-	text-align: center;
-	font-size: 0.8em;
-	clear: both;
+  text-align: center;
+  font-size: 0.8em;
+  clear: both;
 }
 
 #footer a:link, #footer a:visited, #footer a:hover, #footer a:active {
-	color: #0000FF;
+  color: #0000FF;
 }
 
 #footerRow {
@@ -220,11 +218,11 @@ span#tip {
 
 /* rounded box begin */
 .aside {
-	background-color: #e2e2e2;
-	border-radius: 10px;
-	width: 95%;
-	margin: 20px auto;
-	padding: 20px 12px;
+  background-color: #e2e2e2;
+  border-radius: 10px;
+  width: 95%;
+  margin: 20px auto;
+  padding: 20px 12px;
 }
 /* rounded box end */
 
